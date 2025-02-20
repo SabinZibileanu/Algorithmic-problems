@@ -10,6 +10,3 @@ class Solution:
             arr_gains.append(distance)
         
         return max(arr_gains)
-
-s = Solution()
-print(s.largestAltitude([-5,1,5,0,-7]))
