@@ -10,7 +10,6 @@ class Solution:
         counter_operations = 0
 
         while (left_pointer < right_pointer) and (counter_operations < nr_possible_divisions):
-            print(left_pointer, right_pointer)
             if sorted_array[left_pointer] + sorted_array[right_pointer] < k:
                 left_pointer += 1
             
@@ -23,7 +22,3 @@ class Solution:
                 right_pointer -= 1
         
         return counter_operations
-
-
-s = Solution()
-print(s.maxOperations([3,5,1,5], 2))
