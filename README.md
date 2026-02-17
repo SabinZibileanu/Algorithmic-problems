@@ -1,2 +1,2 @@
 # Algorithmic-problems
-This repo covers different solutions to algorithmic problems
+This repo contains different solutions to algorithmic problems and every other DSA related stuff
