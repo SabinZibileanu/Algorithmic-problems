@@ -25,7 +25,7 @@ class Solution2:
         maxLongest = 0
         for num in nums:
             currLongest = 1
-            while num + 1 in set(nums): # unnecesary check
+            while num + 1 in set(nums): # TLE
                 currLongest += 1
                 num += 1
             
